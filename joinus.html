@@ -1,0 +1,98 @@
+
+    <!-- Form Section -->
+    <div class="position-relative d-flex flex-column align-items-center justify-content-center p-4 profile-section">
+        <!-- Heading Section -->
+        <div class="fadeInzoom text-center w-100 mb-4">
+            <h1 class="color h1 heading">
+                We'd Love to Hear From You!
+            </h1>
+            <p class="subheading h4 mt-3 mb-5" style="color: #dad4d4; font-family: 'Times New Roman', Times, serif;">
+                At Pluronce, we welcome innovators, dreamers, and collaborators. Are you interested in being part of our journey? 
+                <br /> Fill out the application form to join Pluronce.
+            </p>
+        </div>
+
+        <!-- Form Section -->
+        <div class="fadeInzoom card shadow p-4 w-100 form-card">
+            <form id="form" action="https://formspree.io/f/xbllpelo" method="POST">
+              
+                <!-- Name Input -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        placeholder="Enter your name..." 
+                        required 
+                    />
+                </div>
+
+                <!-- Email Input -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input 
+                        class="form-control" 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="Enter your email..." 
+                        required 
+                    />
+                </div>
+
+                <!-- Qualification Dropdown -->
+                <div class="mb-3">
+                    <label for="qualification" class="form-label">Your Qualification</label>
+                    <select 
+                        class="form-select" 
+                        id="qualification" 
+                        name="qualification" 
+                        required
+                    >
+                        <option value="" disabled selected>Select your current qualification</option>
+                        <option value="Vocational Qualifications">Vocational Qualifications</option>
+                        <option value="Professional Qualifications">Professional Qualifications</option>
+                        <option value="Certificate">Certificate</option>
+                        <option value="Diploma">Diploma</option>
+                        <option value="Doctorate">Doctorate</option>
+                        <option value="Associate degree">Associate degree</option>
+                        <option value="Master's degree">Master's degree</option>
+                        <option value="Bachelor's degree">Bachelor's degree</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="High School">High School</option>
+                    </select>
+                </div>
+
+                <!-- Contribution Stream Dropdown -->
+                <div class="mb-3">
+                    <label for="stream" class="form-label">Stream of Contribution</label>
+                    <select 
+                        class="form-select" 
+                        id="stream" 
+                        name="stream" 
+                        required
+                    >
+                        <option value="" disabled selected>In which stream do you want to contribute?</option>
+                        <option value="Material Science">Material Science</option>
+                        <option value="Physics">Physics</option>
+                        <option value="Astrophysics">Astrophysics</option>
+                        <option value="Quantum Physics">Quantum Physics</option>
+                        <option value="Software Development">Software Development</option>
+                        <option value="AI/ML">AI/ML</option>
+                    </select>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="d-flex justify-content-center">
+                    <button 
+                        type="submit" 
+                        class="btn color w-50 submit-btn"
+                    >
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
